@@ -120,7 +120,7 @@ const TodoList = () => {
                 ) : (
                   <span className="rounded-full w-4 h-4 border-2 border-lightBlue shrink-0 cursor-pointer" onClick={() => handleToggleCompleted(todo.id)}></span>
                 )}
-                <span className="text-white ml-2 cursor-pointer" onClick={() => handleCreate(todo)}>{todo.title}</span>
+                <span className={`${todo.completed ? "text-grey" : "text-white"} ml-2 cursor-pointer ${todo.completed ? "line-through" : ""}`} onClick={() => handleCreate(todo)}>{todo.title}</span>
                 <span className="ml-auto cursor-pointer shrink-0" onClick={() => handleDelete(todo.id)}>
                   <Image src="/trash.svg" alt="trash" width="15" height="15" />
                 </span>
