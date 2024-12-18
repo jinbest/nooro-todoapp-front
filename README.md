@@ -16,6 +16,10 @@ cd nooro-todoapp-front
 npm install
 ```
 
+## .env File
+
+Please rename `.env.example` to `.env` or you can create new `.env` file, content should be same with `.env.example`.
+
 ## Getting Started
 
 First, run the development server:
