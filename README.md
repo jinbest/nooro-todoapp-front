@@ -33,6 +33,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 ## Sharing Some Screens
-![Todo App Homepage](/screens/initial-home.png.png)
+![Todo App Homepage](/screens/initial-home.png)
 ![Todo App Homepage with Tasks](/screens/home-tasks.png)
 ![Todo App Create/Edit page](/screens/create-edit.png)
